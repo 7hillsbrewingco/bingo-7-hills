@@ -1,0 +1,62 @@
+$box-size: 100px;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+body {
+  font-family: "Space Mono";
+}
+h1{
+  font-size: 4rem;
+  font-family: "Alike Angular";
+}
+
+.container {
+  display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.letterDisplay {
+  display: inline-block;  
+  margin: 5px;
+  width: $box-size;
+  height: $box-size;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: #f1f1f1;
+  border: 2px solid #6dbc45;
+  border-radius: 15px;
+}
+.buttonTrue {
+  display: inline-block; 
+  margin: 5px;
+  width: $box-size;
+  height: $box-size;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  background-color: #f1f1f1;
+  border: 2px solid #6dbc45;
+  border-radius: 15px;
+}
+
+.buttonFalse {
+  display: inline-block;
+  margin: 5px;
+  width: $box-size;
+  height: $box-size;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6dbc45;
+  border: 2px solid #6dbc45;
+  border-radius: 15px;
+}
+
