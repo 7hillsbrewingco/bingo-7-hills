@@ -14,7 +14,7 @@ class Button extends React.Component {
           <section className="text-center pb-5">
             <div className="row py-5">
               <div className="col">
-                <h1>7 Hills Event Center Bingo Night</h1>
+                <h1>7 Hills Brewing Beer Bingo</h1>
               </div>
             </div>
             <div className="row">
