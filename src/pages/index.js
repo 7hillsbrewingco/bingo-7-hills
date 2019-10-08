@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Brow from "../components/B/allBrow"
 import Irow from "../components/I/allIrow"
@@ -24,6 +25,11 @@ class Button extends React.Component {
                 <Nrow />
                 <Grow />
                 <Orow />
+              </div>
+            </div>
+            <div className="row">
+              <div className="col">
+               <Link to="bingo-card">Bingo Card</Link>
               </div>
             </div>
           </section>
