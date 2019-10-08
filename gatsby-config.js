@@ -19,7 +19,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Space Mono", "Alike Angular"],
+          families: ["Space Mono", "Alike Angular", "Work Sans"],
         },
       },
     },
