@@ -19,7 +19,7 @@ class Button extends React.Component {
         className={this.state.button ? "buttonTrue" : "buttonFalse"}
         onClick={this.handleClick}
       >
-        24
+        28
       </button>
     )
   }
